@@ -7,7 +7,7 @@ let player = "X";
 marcarJogadorAtivo(player);
 
 function nextPlayer(){
-    player === "X" ? player = "O" : player = "X";
+    player = player === "X" ? "O" : "X";
 
     marcarJogadorAtivo(player);
 };
